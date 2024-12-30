@@ -27,3 +27,22 @@ print(type(s1), type(s2),type(s3))
 print(s1,"\n",s2,"\n",s3,"\n")
 print(len(s1),len(s2),len(s3))
 #____________________________________________________________
+print("abc"+"."+"study") # string concatination
+s = "study and practice"
+print(s)
+print('{0}:{1}'.format(s[:-5],s[-8]))
+#'{0}:{1}'.format(s[:-5], s[-8]) becomes "study and pra:p".
+#s[:-5]: Slices the string to exclude the last 5 characters. Result: "study and pra".
+#s[-8]: Gets the 8th character from the end. Result: "p".
+#'{0}:{1}'.format(...): Formats the string by replacing {0} with "study and pra" and {1} with "p"
+
+#
+#print(str.__doc__)
+print(str(3))
+print(str(3.14))
+#________________________________
+byt = b'abc' #b'abc' creates a byte literal, which is a sequence of bytes (raw binary data) instead of a regular string.
+print(type(byt))
+print(byt[0]) #output is 97 which is ASCII value for a
+#____________________________________________________________
+
