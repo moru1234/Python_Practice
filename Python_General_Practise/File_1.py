@@ -44,5 +44,8 @@ print(str(3.14))
 byt = b'abc' #b'abc' creates a byte literal, which is a sequence of bytes (raw binary data) instead of a regular string.
 print(type(byt))
 print(byt[0]) #output is 97 which is ASCII value for a
+print(byt[0] =='a')
+print(byt[0]=='97')
+print(type(True))
 #____________________________________________________________
 
