@@ -78,3 +78,20 @@ print(st1)
 #st1.remove('T') # Raises KeyError if 'T' is not in the set
 print(st1.pop())
 st1.clear()
+#___________________________________________________________Dic______________________
+dic ={}
+print(type(dic))
+
+dic ={'k1':'v1','k2':'v2','k3':'v3'}
+print(len(dic))
+
+print(dic['k1'])
+print(dic.get('k1'))
+
+print(dic.get('k4','v0')) #The get() method allows you to specify a default value if the key is not found.
+print(dic)
+
+dic['k3'] ='v2'
+print(dic)
+
+print('k2' in dic)
