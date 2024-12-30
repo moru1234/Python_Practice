@@ -55,3 +55,26 @@ v=(3,2,'a')
 (c,b,a) =v
 print(a,b,c)
 #__________________________Set_________________________________________________________
+
+st = {'s','e','t'} #A set is an unordered collection of unique elements. Mutable: 
+print(type(st))
+
+print(len(st))
+st =set()# print empty set - In Python, {} is reserved for dictionaries. To avoid ambiguity, you must use set() to create an empty set.
+st.add(1)
+print(st, len(st))
+st={}#Note: {} creates an empty dictionary, not a set
+print(type(st))
+
+#_____________
+st1=set(['s','e','t','1'])
+st1.add('W')
+st1.add('O')
+st1.update(['!','!']) #st1.update(['!', '!']) attempts to add '!' twice, but sets store unique elements, so only one '!' is added.
+print(st1) # {'O', '1', '!', 't', 's', 'e', 'W'} = The order of elements is arbitrary and does not match the insertion order. - When printing a set, Python internally determines the display order based on its hash table structure.
+
+st1.discard('t')
+print(st1)
+#st1.remove('T') # Raises KeyError if 'T' is not in the set
+print(st1.pop())
+st1.clear()
