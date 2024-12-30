@@ -12,3 +12,5 @@ Also some call it as - Operator Overloading Methods because of __add__, __sub__ 
 for that class you can check which are dunder methods are avialble by using **print(dir(class_name))**
 
 <img width="965" alt="MagicMethod" src="https://github.com/user-attachments/assets/b4c45099-673c-4278-a67f-f59b0e0989d8" />
+<img width="965" alt="Untitled" src="https://github.com/user-attachments/assets/6b0ae773-df4a-4075-9182-e0d5abe15aa1" />
+
